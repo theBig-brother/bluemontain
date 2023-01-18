@@ -1,0 +1,187 @@
+.musicArea {
+    float: left;
+    width: 100%;
+}
+
+.m-lycifo {
+    margin-top: -10px;
+}
+
+.lrc-user {
+    text-align: right;
+    margin-top: 48px;
+    line-height: 30px;
+}
+
+.m-lycifo .cvrwrap {
+    float: left;
+    width: 206px;
+    margin-right: -226px;
+}
+
+.f-pr {
+    position: relative;
+    zoom: 1;
+}
+
+.u-cover-6 {
+    width: 198px;
+    height: 198px;
+}
+
+.u-cover {
+    position: relative;
+    display: block;
+}
+
+.f-fl {
+    float: left;
+}
+
+.u-cover-6 img {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 34px;
+}
+
+.u-cover-6 .msk {
+    width: 206px;
+    height: 205px;
+    top: -4px;
+    left: -4px;
+    background-position: -140px -580px;
+    _background-position: 0 0;
+}
+
+.u-cover .msk {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.m-lycifo .cvrwrap .out {
+    float: left;
+    margin: 20px 0 0 46px;
+}
+
+.s-fc3,
+a.s-fc3:hover {
+    color: #666;
+}
+
+.m-lycifo .cnt {
+    float: right;
+    width: 414px;
+}
+
+.m-lycifo .hd .lab {
+    float: left;
+}
+
+.u-icn-37 {
+    width: 54px;
+    height: 24px;
+    background: url(../images/icon.png) 0 -463px;
+}
+
+.u-icn,
+.u-icn2,
+.u-icn3 {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.m-lycifo .tit {
+    margin-left: 64px;
+    position: relative;
+    top: -6px;
+    font-size: 24px;
+}
+
+.m-lycifo .tit em {
+    margin-right: 7px;
+}
+
+.m-lycifo .tit * {
+    vertical-align: middle;
+}
+
+.f-ff2 {
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+}
+
+.m-lycifo .des {
+    margin: 10px 0;
+}
+
+.s-fc4,
+a.s-fc4:hover {
+    color: #999;
+}
+
+.m-lycifo .des span {
+    color: #333;
+}
+
+.m-lycifo .bd-open {
+    height: auto;
+}
+
+.m-lycifo .bd {
+    height: 299px;
+    margin-top: 13px;
+    line-height: 23px;
+}
+
+.f-brk {
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+}
+
+.f-ib {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.f-hide,
+.js-hide {
+    display: none;
+    /* !important; */
+}
+
+.m-lycifo .crl {
+    margin-top: 5px;
+}
+
+.s-fc7,
+a.s-fc7:hover {
+    color: #0c73c2;
+}
+
+.u-icn-69,
+.u-icn-70 {
+    width: 11px;
+    height: 8px;
+    background-image: url(../images/icon.png);
+    
+}
+
+.u-icn,
+.u-icn2,
+.u-icn3 {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.u-icn-69{
+    background-position: -65px -520px;
+}
+.u-icn-70 {
+    background-position: -45px -520px;
+}

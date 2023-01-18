@@ -1,0 +1,37 @@
+
+ .command {
+    float: left;
+    margin-top: 40px;
+}
+
+ .command .title {
+    height: 33px;
+    border-bottom: 2px solid #c20c0c;
+}
+
+ .command .title .评论 {
+    font-size: 20px;
+    line-height: 28px;
+    float: left;
+    font-weight: normal;
+}
+
+ .command .title .sum {
+    margin: 9px 0 0 20px;
+    float: left;
+}
+
+ .maincommand {
+    margin-top: 20px;
+}
+
+ .maincommand .self {
+    margin-bottom: 20px;
+}
+
+ .maincommand .self .head {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: -100px;
+}

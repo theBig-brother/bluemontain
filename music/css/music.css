@@ -1,0 +1,481 @@
+.m-subnav {
+    z-index: 90;
+    height: 35px;
+    box-sizing: border-box;
+    background-color: #C20C0C;
+    border-bottom: 1px solid #a40011;
+}
+
+.m-subnav .row {
+    height: 34px;
+}
+
+.m-subnav .nav {
+    float: left;
+    padding-left: 180px;
+}
+
+.m-subnav .nav li,
+.m-subnav .nav a {
+    float: left;
+    height: 34px;
+    text-align: center;
+}
+
+.m-subnav .nav a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.m-subnav .nav a em {
+    display: inline-block;
+    height: 20px;
+    padding: 0 13px;
+    margin: 7px 17px 0;
+    border-radius: 20px;
+    line-height: 21px;
+}
+
+.m-subnav .nav a:hover em {
+    background: #9B0909;
+}
+
+.m-subnav .nav a em {
+    display: inline-block;
+    height: 20px;
+    padding: 0 13px;
+    margin: 7px 17px 0;
+    border-radius: 20px;
+    line-height: 21px;
+}
+
+.m-subnav .nav a:hover em,
+.m-subnav .nav a.present em {
+    background: #9B0909;
+}
+
+.m-subnav .nav a {
+    color: #fff;
+}
+
+.triangle {
+    background: url(../images/topbar.png);
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 64px;
+    width: 12px;
+    height: 7px;
+    margin-left: -6px;
+    overflow: hidden;
+    background-position: -226px 0;
+
+}
+
+/* main */
+.main {
+    width: 980px;
+    min-height: 700px;
+    _height: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+}
+
+.mainleft {
+    float: left;
+    width: calc(100% - 270px);
+    padding: 47px 30px 40px 39px;
+    border-right: 1px solid #d3d3d3;
+}
+
+.mainleft .describe {
+    height: 200px;
+}
+
+.mainleft .describe .img {
+    float: left;
+    position: relative;
+    display: inline;
+    margin: 0 -220px 0 0;
+}
+
+.mainleft .describe .img img {
+    position: absolute;
+    z-index: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.mainleft .describe .img .photo_frame {
+    position: absolute;
+    z-index: 0px;
+    width: 208px;
+    height: 208px;
+    background-color: white;
+    top: -4px;
+    left: -4px;
+}
+
+.mainleft .describe .text {
+    float: right;
+    width: 410px;
+
+}
+
+.mainleft .describe .text .title {
+    position: relative;
+    margin: 0 0 12px;
+    line-height: 24px;
+
+}
+
+.mainleft .describe .text .title .歌单 {
+    width: 54px;
+    height: 24px;
+    background: url(../images/icon.png)no-repeat 0 -243px;
+    float: left;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.mainleft .describe .text .title .description {
+    position: relative;
+    float: left;
+    line-height: 24px;
+    font-size: 20px;
+    word-wrap: break-word;
+    /* 允许换行 */
+    word-break: break-word;
+    /* 换行规则 */
+    white-space: normal;
+    /* 是否合并空格 */
+    font-weight: normal;
+    color: black;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    /* 后面三个参数是其他字体 */
+}
+
+.describeright {
+    margin-left: 230px;
+}
+
+.mainleft .describe .user {
+    margin: 0 0 20px;
+    line-height: 35px;
+}
+
+.mainleft .describe .user .face {
+    margin-right: 10px;
+    float: left;
+    width: 35px;
+    height: 35px;
+}
+
+.mainleft .describe .user .face img {
+    float: left;
+    width: 35px;
+    height: 35px;
+}
+
+.mainleft .describe .brief_introduction {
+    margin-top: 4px;
+    line-height: 18px;
+    color: #666;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+}
+
+.mainleft .describe .brief_introduction b {
+    font-weight: normal;
+    color: #666;
+}
+
+.musiclist {
+    margin-top: 27px;
+}
+
+.musiclist .title {
+    height: 33px;
+    border-bottom: 2px solid #c20c0c;
+}
+
+.musiclist .title h3 {
+    font-size: 20px;
+    float: left;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.musiclist .row1 {
+    height: 38px;
+    vertical-align: top;
+    text-align: left;
+    font-weight: normal;
+    width: 640px;
+    color: #666;
+    background: url(../images/table.png)repeat-x 0 0;
+    /* 学会长空白如何填背景 */
+}
+
+.musiclist .th1 {
+    height: 18px;
+    line-height: 18px;
+    padding: 8px 10px;
+    background-position: 0 -56px;
+}
+
+.musiclist li {
+    border: 1px solid gray;
+    height: 20px;
+}
+
+.musiclist .hd {
+    float: left;
+    height: 18px;
+    width: 74px;
+}
+
+.musiclist .left {
+    width: 75px;
+}
+
+.musiclist .ply {
+    float: right;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    background: url(../images/table.png) 0 -103px;
+}
+
+.musiclist .num {
+    width: 25px;
+    margin-left: 5px;
+    color: #999;
+}
+
+.musiclist .name {
+    display: block;
+    float: left;
+}
+
+/* 盒子右边 */
+.mainright {
+    position: relative;
+    float: right;
+    width: 270px;
+    zoom: 1;
+    padding: 20px 40px 40px 30px;
+}
+
+
+.mainright .m-piclist {
+    margin-left: -13px;
+    padding-bottom: 25px;
+}
+.mainright .lover {
+    position: relative;
+    *zoom: 1;
+    height: 23px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+}
+.详情{float: right;}
+.mainright .hotmusic {
+    float: left;
+    position: relative;
+    *zoom: 1;
+    height: 23px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+}
+.mainright .m-piclist li
+{
+    float: left;
+    width: 53px;
+    height: 53px;
+}
+.m-piclist li img 
+{
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.mainright .m-piclist li {
+    display: inline;
+    padding: 0 0 13px 13px;
+}
+
+.mainright .f-tdn,
+.f-tdn:hover {
+    text-decoration: none;
+}
+
+
+.selfcommand {
+    margin-left: 62px;
+    padding-right: 14px;
+}
+
+.selfcommand .txtarea {
+    height: 50px;
+    display: block;
+    width: 100%;
+    margin-right: -20px;
+    margin: 0;
+    padding: 5px 6px 6px;
+    border: 1px solid #cdcdcd;
+    border-radius: 2px;
+    line-height: 19px;
+    box-sizing: content-box;
+    resize: none;
+    overflow: auto;
+}
+
+.selfcommand .btnarea {
+    clear: both;
+    padding-top: 10px;
+    position: relative;
+    zoom: 1;
+}
+
+.selfcommand .btnarea .btn {
+    width: 46px;
+    height: 25px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    float: right;
+    background: url(../images/button.png) -84px -64px;
+}
+
+.commands .commandstitle {
+    position: relative;
+    top: 1px;
+    height: 20px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.commands .itm {
+    padding: 15px 0;
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px dotted #ccc;
+}
+
+.commands .itm .head {
+    width: 50px;
+    height: 50px;
+}
+
+.commands .itm .head img {
+    width: 50px;
+    height: 50px;
+}
+
+.commands .itm .cnt {
+    word-break: break-word;
+    width: 100%;
+    overflow: hidden;
+    line-height: 20px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.commands .username {
+    color: skyblue;
+}
+
+.commands .username:hover {
+    text-decoration: underline;
+    color: skyblue;
+}
+
+.commands .点赞 {
+    margin-top: 15px;
+    text-align: right;
+    width: 580px;
+}
+
+.commands .time {
+    float: left;
+    margin: 0 !important;
+    color: #999;
+}
+
+.commands .like {
+    float: right;
+    margin-right: 5px;
+    width: 15px;
+    height: 14px;
+    overflow: hidden;
+    vertical-align: middle;
+    background: url(../images/icon2.png) -150px 0;
+}
+
+.commands .sep {
+    float: right;
+    margin: 0 8px;
+    color: #ccc;
+}
+
+/* .commands .del{
+display: block;
+} */
+.reply {
+    float: right;
+    color: #666;
+}
+
+
+
+.top {
+    display: block;
+    position: fixed;
+    _position: absolute;
+    left: 50%;
+    margin-left: 500px;
+    bottom: 160px;
+    width: 49px;
+    height: 44px;
+    background-color: pink;
+}
+
+.musicPlayerParent {
+    width: 100%;
+    /* height: 100px; */
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+
+
+}
+
+.musicPlayerParent .center {
+    width: 1100px;
+    height: 54px;
+    margin: 0 auto;
+
+}
+
+audio {
+    display: block;
+    float: left;
+    width: 1046px;
+}
+
+.musicPlayerParent .next {
+    display: block;
+    height: 54px;
+    width: 54px;
+    float: left;
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+}

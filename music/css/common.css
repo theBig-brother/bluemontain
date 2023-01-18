@@ -1,0 +1,424 @@
+/* 声明字体图标 这里一定要注意路径的变化 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('../fonts/icomoon.woff?tomleg') format('woff'),
+        url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.headerNav {
+    position: relative;
+    height: 105px;
+}
+
+.w {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+/*headNav */
+.headerNav {
+
+    position: relative;
+    z-index: 1000;
+    height: 70px;
+    box-sizing: border-box;
+    background: #242424;
+    border-bottom: 1px solid #000;
+
+}
+
+.headerNav .logo {
+
+    float: left;
+    width: 176px;
+    height: 69px;
+    background-position: 0 0;
+
+}
+
+.headerNav .logo a {
+    float: left;
+    width: 157px;
+    height: 69px;
+    padding-right: 20px;
+    background-image: url(../images/logo.png);
+    font-size: 0;
+}
+
+
+.search {
+    float: right;
+    width: 158px;
+    height: 32px;
+    margin-top: 19px;
+    border-radius: 32px;
+    zoom: 1;
+    background: url(../images/topbar.png) no-repeat 0 -99px;
+    background-color: #fff;
+}
+
+.search .parent {
+    display: block;
+    position: relative;
+    margin: 8px 0 0 30px;
+}
+
+.search .parent input {
+    color: #333;
+    line-height: 16px;
+    width: 95%;
+    margin: 0;
+    padding: 0;
+    /* background: transparent; */
+
+}
+
+.search::after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.headerNav .search button {
+    height: 31px;
+    width: 80px;
+    color: white;
+    margin-top: -1px;
+    background-color: #b1191a;
+}
+
+
+.登录 {
+    float: right;
+    height: 45px;
+    margin: 19px 0 0 20px;
+    padding: 0 22px 0 0;
+    background-position: right -47px;
+    background-image: none;
+}
+
+.登录 .signup {
+    display: block;
+    width: 28px;
+    margin-top: 7px;
+    color: #787878;
+}
+.登录 .jia{
+    background-color: gold;
+    display: block;
+}
+.headimg {
+    display: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.headspan {
+    display: none;
+    max-width: 100px;
+    margin: 0px 0 0 calc(50% - 18px);
+    line-height: 17px;
+    color: #adadad;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    float: left;
+}
+
+.creater {
+    float: right;
+    width: 90px;
+    height: 32px;
+    margin: 19px 0 0 12px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    border: 1px solid #4F4F4F;
+    background-position: 0 -140px;
+    line-height: 33px;
+    color: #ccc;
+    border-radius: 20px;
+    background: none !important;
+}
+
+.dt {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    line-height: 45px;
+    color: white;
+    background-color: #b1191a;
+}
+
+.dd {
+    height: 35px;
+    box-sizing: border-box;
+    background-color: #C20C0C;
+    border-bottom: 1px solid #a40011;
+
+    width: 1100px;
+    height: 34px;
+    margin: 0 auto;
+}
+
+/* dorpdown */
+.headerNav .navitems {
+    height: 70px;
+    font-size: 14px;
+    padding: 0 19px;
+    text-align: center;
+    line-height: 70px;
+    color: #ccc;
+}
+
+.searcharea {
+    position: relative;
+    float: right;
+    width: 158px;
+    height: 32px;
+}
+
+.hid {
+    display: none;
+}
+
+.searchdiv {
+    clear: both;
+    top: 59px;
+    width: 240px;
+    position: absolute;
+    z-index: 120;
+    left: 0;
+    box-sizing: border-box;
+    border: 1px solid #bebebe;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 4px 7px #555;
+    text-shadow: 0 1px 0 rgb(255 255 255 / 90%);
+}
+
+.searchdiv .note {
+    height: 17px;
+    border-bottom: 1px solid #e2e2e2;
+    color: #666;
+}
+
+.searchdiv .hd {
+    float: left;
+    width: 52px;
+    margin-right: -100px;
+    padding: 10px 0 0 10px;
+    border-right: 1px solid #e2e2e2;
+    line-height: 17px;
+    font-weight: normal;
+}
+
+.searchdiv .icn {
+    overflow: hidden;
+    vertical-align: middle;
+    width: 14px;
+    height: 15px;
+    background: url(../images/icon.png) -35px -300px;
+    float: left;
+    margin: 2px 4px 0 0;
+    overflow: hidden;
+    vertical-align: middle;
+
+}
+
+.searchdiv .hd em {
+    float: left;
+}
+
+.searchdiv ul {
+    margin-left: 62px;
+    margin-top: -1px;
+    padding: 6px 0 5px;
+    border-top: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+}
+
+.searchdiv ul li {
+    width: 100%;
+    float: left;
+}
+
+.searchdiv ul li a {
+    display: block;
+    width: 100%;
+    text-indent: 12px;
+    line-height: 24px;
+}
+
+.searchdiv ul li a:hover {
+    background-color: #e3e5e7;
+}
+
+.searchdiv ul li a .blue {
+    color: skyblue;
+}
+
+.navitems ul li {
+
+    position: relative;
+    *zoom: 1;
+    background-position: right -300px;
+}
+
+.navitems ul li span {
+    float: left;
+    height: 70px;
+    font-size: 14px;
+    position: relative;
+}
+
+.navitems ul li span a {
+    padding: 0 19px;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    color: #ccc;
+    float: left;
+    height: 70px;
+    font-size: 14px;
+}
+
+.navitems ul li:hover a {
+    padding: 0 19px;
+    text-align: center;
+    height: 70px;
+    color: #ccc;
+    background: #000;
+    text-decoration: none;
+    color: #fff;
+}
+
+.hot {
+    background: url(../images/topbar.png) no-repeat;
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 100px;
+    width: 28px;
+    height: 19px;
+    background-position: -190px 0;
+}
+
+/*foot*/
+.footer {
+    position: relative;
+    height: 325px;
+    overflow: hidden;
+    border-top: 1px solid #d3d3d3;
+    background: #f2f2f2;
+}
+
+.service ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 33px;
+}
+
+.service ul li {
+    width: 45px;
+    margin-left: 80px;
+    text-align: center;
+    color: #666;
+}
+
+.service ul li .logo1 {
+    background-position: -170px -5px;
+
+}
+
+.service ul li .logo2 {
+    background-position: -5px -170px;
+
+}
+
+.service ul li .logo3 {
+    background-position: -5px -60px;
+
+}
+
+.service ul li .logo4 {
+    background-position: -60px -60px;
+
+}
+
+.service ul li .logo5 {
+    background-position: -115px -115px;
+
+}
+
+.service ul li .logo6 {
+    background-position: -170px -115px;
+
+}
+
+.service ul li .logo7 {
+    background-position: -170px -60px;
+
+}
+
+.service ul li .logonew {
+    display: block;
+    float: none;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+}
+
+.service .logoimg {
+    background: url(../images/foot_enter_new2.png);
+    background-size: 220px 220px;
+}
+
+.service_txt h4 {
+    display: inline-block;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: -27.5px;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.service_txt p {
+    font-size: 12px;
+}
+
+.mod_copyright {
+    text-align: center;
+}
+
+.mod_copyright {
+    padding-top: 20px;
+    float: center;
+}
+
+.mod_copyright .link {
+    margin-bottom: 15px;
+    ;
+
+}
+
+.link a {
+    margin: 0 3px;
+}
+
+.copyright {
+    line-height: 20px;
+}
